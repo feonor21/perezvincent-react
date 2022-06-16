@@ -1,0 +1,27 @@
+@import "../../global.scss";
+.section {
+  @extend %section;
+}
+.title {
+  @extend %title;
+}
+.line {
+  @extend %line;
+}
+.info {
+  @extend %info;
+  li {
+    @extend %li;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .title {
+    font-size: 25pt;
+  }
+  .info {
+    li {
+      font-size: 15pt;
+    }
+  }
+}
