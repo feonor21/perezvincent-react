@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ParticlesBg from "particles-bg";
 
 class Header extends Component {
     render() {
@@ -11,8 +10,6 @@ class Header extends Component {
                     backgroundSize: "cover",
                 }}
             >
-                {/* <ParticlesBg type="circle" bg={true} /> */}
-
                 <nav id="nav-wrap">
                     <a
                         className="mobile-btn"
