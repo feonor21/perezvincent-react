@@ -15,7 +15,11 @@ class About extends Component {
                     <div className="nine columns main-col">
                         <h2>About Me</h2>
 
-                        <p>vas falloir que je trouve de quoi meubler :(</p>
+                        <p>
+                            I am a self-taught developer, I develop tools to
+                            improve my work. I like computer science for all the
+                            challenges that our generation has to face.
+                        </p>
                         <div className="row">
                             <div className="columns contact-details">
                                 <h2>Contact Details</h2>
