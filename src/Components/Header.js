@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
-import Fade from "react-reveal";
 
 class Header extends Component {
     render() {
@@ -59,46 +58,40 @@ class Header extends Component {
 
                 <div className="row banner">
                     <div className="banner-text">
-                        <Fade bottom>
-                            <h1 className="responsive-headline">
-                                Vincent Perez Resume Website
-                            </h1>
-                        </Fade>
-                        <Fade bottom duration={1200}>
-                            <h3>
-                                I'm a french junior developer. This project is
-                                my resume website.
-                            </h3>
-                        </Fade>
+                        <h1 className="responsive-headline">
+                            Vincent Perez Resume Website
+                        </h1>
+                        <h3>
+                            I'm a french junior developer. This project is my
+                            resume website.
+                        </h3>
                         <hr />
-                        <Fade bottom duration={2000}>
-                            <ul className="social">
-                                {/* <a
+                        <ul className="social">
+                            {/* <a
                                     href={project}
                                     className="button btn project-btn"
                                 >
                                     <i className="fa fa-book"></i>Project
                                 </a> */}
-                                <a
-                                    href="https://github.com/feonor21"
-                                    className="button btn github-btn"
-                                >
-                                    <i className="fa fa-github"></i>Github
-                                </a>
-                                <a
-                                    href="https://www.linkedin.com/in/vincent-perez-23b4b7114/"
-                                    className="button btn linkedin-btn"
-                                >
-                                    <i className="fa fa-linkedin"></i>LinkedIn
-                                </a>
-                                <a
-                                    href="https://www.facebook.com/perez.vincent21"
-                                    className="button btn facebook-btn"
-                                >
-                                    <i className="fa fa-facebook"></i>Facebook
-                                </a>
-                            </ul>
-                        </Fade>
+                            <a
+                                href="https://github.com/feonor21"
+                                className="button btn github-btn"
+                            >
+                                <i className="fa fa-github"></i>Github
+                            </a>
+                            <a
+                                href="https://www.linkedin.com/in/vincent-perez-23b4b7114/"
+                                className="button btn linkedin-btn"
+                            >
+                                <i className="fa fa-linkedin"></i>LinkedIn
+                            </a>
+                            <a
+                                href="https://www.facebook.com/perez.vincent21"
+                                className="button btn facebook-btn"
+                            >
+                                <i className="fa fa-facebook"></i>Facebook
+                            </a>
+                        </ul>
                     </div>
                 </div>
 
