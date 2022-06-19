@@ -82,12 +82,12 @@ class Header extends Component {
                             >
                                 <i className="fa fa-linkedin"></i>LinkedIn
                             </a>
-                            <a
+                            {/* <a
                                 href="https://www.facebook.com/perez.vincent21"
                                 className="button btn facebook-btn"
                             >
                                 <i className="fa fa-facebook"></i>Facebook
-                            </a>
+                            </a> */}
                         </ul>
                     </div>
                 </div>

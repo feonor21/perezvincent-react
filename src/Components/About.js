@@ -16,9 +16,9 @@ class About extends Component {
                         <h2>About Me</h2>
 
                         <p>
-                            I am a self-taught developer, I develop tools to
-                            improve my work. I like computer science for all the
-                            challenges that our generation has to face.
+                            I am a developer, I develop tools to improve my
+                            life. I like computer science for all the challenges
+                            that our generation has to face.
                         </p>
                         <div className="row">
                             <div className="columns contact-details">
