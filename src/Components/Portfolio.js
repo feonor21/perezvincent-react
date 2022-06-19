@@ -1,26 +1,7 @@
 import React, { Component } from "react";
-import Zmage from "react-zmage";
 
-let id = 0;
 class Portfolio extends Component {
     render() {
-        if (!this.props.data) return null;
-
-        const projects = this.props.data.projects.map(function (projects) {
-            let projectImage = "images/portfolio/" + projects.image;
-
-            return (
-                <div key={id++} className="columns portfolio-item">
-                    <div className="item-wrap">
-                        <Zmage alt={projects.title} src={projectImage} />
-                        <div style={{ textAlign: "center" }}>
-                            {projects.title}
-                        </div>
-                    </div>
-                </div>
-            );
-        });
-
         return (
             <section id="portfolio">
                 <div className="row">
@@ -31,7 +12,74 @@ class Portfolio extends Component {
                             id="portfolio-wrapper"
                             className="bgrid-quarters s-bgrid-thirds cf"
                         >
-                            {projects}
+                            <div
+                                key="EveMiningFleet"
+                                className="columns portfolio-item"
+                            >
+                                <div className="item-wrap">
+                                    <a href="https://eveminingfleet.ovh/">
+                                        <img
+                                            src="images/portfolio/eveminingfleet.jpg"
+                                            alt="EveMiningFleet"
+                                        ></img>
+                                    </a>
+
+                                    <div style={{ textAlign: "center" }}>
+                                        Eve Mining Fleet, for eve online. C#,
+                                        ASP.net and MySQL
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                key="ResumeCv"
+                                className="columns portfolio-item"
+                            >
+                                <div className="item-wrap">
+                                    <img
+                                        src="images/portfolio/resumecv.jpg"
+                                        alt="Resume Cv"
+                                    ></img>
+
+                                    <div style={{ textAlign: "center" }}>
+                                        my resume website with autodeploy by
+                                        github action.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                key="HomeAssistant"
+                                className="columns portfolio-item"
+                            >
+                                <div className="item-wrap">
+                                    <img
+                                        src="images/portfolio/homeassistant.jpg"
+                                        alt="Home assistant"
+                                    ></img>
+
+                                    <div style={{ textAlign: "center" }}>
+                                        HomeAssistant for my house.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                key="dockerswarm"
+                                className="columns portfolio-item"
+                            >
+                                <div className="item-wrap">
+                                    <img
+                                        src="images/portfolio/dockerswarm.png"
+                                        alt="Cluster Swarm"
+                                    ></img>
+
+                                    <div style={{ textAlign: "center" }}>
+                                        Cluster docker swarm on 6 raspberry pi
+                                        4.
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

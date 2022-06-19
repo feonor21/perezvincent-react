@@ -41,7 +41,7 @@ class Resume extends Component {
                         </div>
                     </div>
                 </Slide> */}
-
+                {/* 
                 <div className="row work">
                     <div className="three columns header-col">
                         <h1>
@@ -67,7 +67,7 @@ class Resume extends Component {
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="row skill">
                     <div className="three columns header-col">
@@ -114,26 +114,6 @@ class Resume extends Component {
                                     ></span>
                                     <em>ASP.net</em>
                                 </li>
-                                <li key="javascript">
-                                    <span
-                                        style={{
-                                            width: "25%",
-                                            background: "#cfb430",
-                                        }}
-                                        className="bar-expand javascript"
-                                    ></span>
-                                    <em>JavaScript</em>
-                                </li>
-                                <li key="typescript">
-                                    <span
-                                        style={{
-                                            width: "25%",
-                                            background: "#2f74c0",
-                                        }}
-                                        className="bar-expand typescript"
-                                    ></span>
-                                    <em>TypeScript</em>
-                                </li>
                                 <li key="MySQL">
                                     <span
                                         style={{
@@ -164,15 +144,25 @@ class Resume extends Component {
                                     ></span>
                                     <em>Docker</em>
                                 </li>
-                                <li key="docker swarm">
+                                <li key="javascript">
                                     <span
                                         style={{
-                                            width: "37%",
-                                            background: "#0db7ed",
+                                            width: "25%",
+                                            background: "#cfb430",
                                         }}
-                                        className="bar-expand docker_swarm"
+                                        className="bar-expand javascript"
                                     ></span>
-                                    <em>docker swarm</em>
+                                    <em>JavaScript</em>
+                                </li>
+                                <li key="typescript">
+                                    <span
+                                        style={{
+                                            width: "25%",
+                                            background: "#2f74c0",
+                                        }}
+                                        className="bar-expand typescript"
+                                    ></span>
+                                    <em>TypeScript</em>
                                 </li>
                             </ul>
                         </div>

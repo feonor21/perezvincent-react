@@ -5,7 +5,7 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
-//import Portfolio from "./Components/Portfolio";
+import Portfolio from "./Components/Portfolio";
 
 class App extends Component {
     constructor(props) {
@@ -19,32 +19,13 @@ class App extends Component {
         ReactGA.pageview(window.location.pathname);
     }
 
-    // getResumeData() {
-    //     $.ajax({
-    //         url: "./resumeData.json",
-    //         dataType: "json",
-    //         cache: false,
-    //         success: function (data) {
-    //             this.setState({ resumeData: data });
-    //         }.bind(this),
-    //         error: function (xhr, status, err) {
-    //             console.log(err);
-    //             alert(err);
-    //         },
-    //     });
-    // }
-
-    // componentDidMount() {
-    //     this.getResumeData();
-    // }
-
     render() {
         return (
             <div className="App">
                 <Header />
                 <About />
                 <Resume />
-                {/* <Portfolio data={this.state.resumeData.portfolio} /> */}
+                <Portfolio />
                 <Footer />
             </div>
         );
