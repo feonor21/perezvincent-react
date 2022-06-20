@@ -41,33 +41,56 @@ class Resume extends Component {
                         </div>
                     </div>
                 </Slide> */}
-                {/* 
+
                 <div className="row work">
                     <div className="three columns header-col">
                         <h1>
-                            <span>Work</span>
+                            <span>Project</span>
                         </h1>
                     </div>
 
                     <div className="nine columns main-col">
                         <div key="Awesome Design Studio">
-                            <h3>Awesome Design Studio</h3>
+                            <h3>Eve Mining Fleet</h3>
                             <p className="info">
-                                Junior bug fixer
-                                <span>&bull;</span>
+                                C#, ASP.NET, MySQL, API REST
+                                {/* <span>&bull;</span>
                                 <em className="date">
                                     March 2017 - February 2018
-                                </em>
+                                </em> */}
                             </p>
                             <p>
-                                Describe work, special projects, notable
-                                achievements, what technologies you have been
-                                working with, and anything else that would be
-                                useful for an employer to know.
+                                I developed this site because I needed a tool to
+                                manage the payments on eve online in order to
+                                gather efficiently more than ten players. It was
+                                created in C# and asp.net, linked to a MySQL
+                                database. this site uses the API of eveonline to
+                                get the information in "real time".{"\n"}
+                                <a href="https://eveminingfleet.ovh/">
+                                    go to eveminingfleet.
+                                </a>
                             </p>
                         </div>
                     </div>
-                </div> */}
+                    <div className="nine columns main-col">
+                        <div key="Awesome Design Studio">
+                            <h3>My Resume Website</h3>
+                            <p className="info">
+                                React, JS, Docker, Github Action
+                                {/* <span>&bull;</span>
+                                <em className="date">
+                                    March 2017 - February 2018
+                                </em> */}
+                            </p>
+                            <p>
+                                I developed this site because I needed a website
+                                to present myself. It was created in React. To
+                                simplify my deployment I make a github action
+                                that deploys it for me at each update.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
                 <div className="row skill">
                     <div className="three columns header-col">
