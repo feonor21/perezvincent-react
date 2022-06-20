@@ -61,11 +61,27 @@ class Resume extends Component {
                             </p>
                             <p>
                                 I developed this site because I needed a tool to
-                                manage the payments on eve online in order to
-                                gather efficiently more than ten players. It was
-                                created in C# and asp.net, linked to a MySQL
-                                database. this site uses the API of eveonline to
-                                get the information in "real time".{"\n"}
+                                manage payments on eve online in order to gather
+                                more than ten players efficiently.
+                                <br />I first learned C# to create low
+                                complexity software.
+                                <br />
+                                Then, I learned ASP.net and MVC coding to
+                                upgrade my software to a website.
+                                <br />
+                                All data is stored in a MySQL database.
+                                <br />
+                                C# used the entity framework as an interface to
+                                the database.
+                                <br />
+                                To get all the data from eve online, I use its
+                                REST API.
+                                <br />
+                                After that, I divided my website into 3
+                                services, a cronjob for all background
+                                calculations, a backend that responds to a
+                                frontend.
+                                <br />
                                 <a href="https://eveminingfleet.ovh/">
                                     go to eveminingfleet.
                                 </a>

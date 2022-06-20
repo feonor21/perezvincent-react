@@ -16,9 +16,10 @@ class About extends Component {
                         <h2>About Me</h2>
 
                         <p>
-                            I am a developer, I develop tools to improve my
-                            life. I like computer science for all the challenges
-                            that our generation has to face.
+                            I am an developer, motivated by tech news,
+                            innovation and maintainability. My goals are to
+                            create powerful software for customers, easy to
+                            maintain and to evolve for developers.
                         </p>
                         <div className="row">
                             <div className="columns contact-details">
@@ -36,17 +37,14 @@ class About extends Component {
                                     <span>perez.vincent21@gmail.com</span>
                                 </p>
                             </div>
-                            {/* <div className="columns download">
-                                    <p>
-                                        <a
-                                            href={resumeDownload}
-                                            className="button"
-                                        >
-                                            <i className="fa fa-download"></i>
-                                            Download Resume
-                                        </a>
-                                    </p>
-                                </div> */}
+                            <div className="columns download">
+                                <p>
+                                    <a href="cv_2022_IT.pdf" className="button">
+                                        <i className="fa fa-download"></i>
+                                        Download Resume
+                                    </a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
