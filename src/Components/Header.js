@@ -8,7 +8,7 @@ class Header extends Component {
         const strings = [
             "I'm a french junior developer.",
             "Welcome on my personal website.",
-            "I create it for show my motivation.",
+            "I'm looking for new challenge.",
         ];
         // You can pass other options here, such as typing speed, back speed, etc.
         const options = {
