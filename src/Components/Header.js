@@ -1,4 +1,4 @@
-import React, { Component, ReactDOM } from "react";
+import React, { Component } from "react";
 import Typed from "typed.js";
 
 class Header extends Component {
