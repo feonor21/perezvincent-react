@@ -1,6 +1,6 @@
 {
     "name": "resumecv",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "private": true,
     "homepage": "./",
     "dependencies": {
@@ -15,6 +15,7 @@
         "react-ga": "^3.3.0",
         "react-scripts": "4.0.3",
         "react-zmage": "^0.8.5-beta.36",
+        "typed.js": "^2.0.12",
         "web-vitals": "^1.0.1"
     },
     "scripts": {

@@ -1,6 +1,32 @@
-import React, { Component } from "react";
+import React, { Component, ReactDOM } from "react";
+import Typed from "typed.js";
 
 class Header extends Component {
+    componentDidMount() {
+        // If you want to pass more options as props, simply add
+        // your desired props to this destructuring assignment.
+        const strings = [
+            "I'm a french junior developer.",
+            "Welcome on my personal website.",
+            "I create it for show my motivation.",
+        ];
+        // You can pass other options here, such as typing speed, back speed, etc.
+        const options = {
+            strings: strings,
+            typeSpeed: 50,
+            backSpeed: 30,
+            backDelay: 750,
+        };
+        // this.el refers to the <span> in the render() method
+        this.typed = new Typed(this.el, options);
+    }
+
+    componentWillUnmount() {
+        // Make sure to destroy Typed instance on unmounting
+        // to prevent memory leaks
+        this.typed.destroy();
+    }
+
     render() {
         return (
             <header
@@ -55,12 +81,15 @@ class Header extends Component {
 
                 <div className="row banner">
                     <div className="banner-text">
-                        <h1 className="responsive-headline">
-                            Vincent Perez Resume Website
-                        </h1>
+                        <h1 className="responsive-headline">Vincent Perez</h1>
+                        <h2>GNU nano 3.2</h2>
                         <h3>
-                            I'm a french junior developer. This project is my
-                            resume website.
+                            <span
+                                style={{ whiteSpace: "pre" }}
+                                ref={(el) => {
+                                    this.el = el;
+                                }}
+                            />
                         </h3>
                         <hr />
                         <ul className="social">
